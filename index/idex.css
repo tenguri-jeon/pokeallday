@@ -1,0 +1,65 @@
+header{
+    background-color: skyblue;
+    min-width: 1000px
+}
+
+.hide-text
+{
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+
+.unit-link{
+    display: block;
+    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+#header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+  .header-name-wrapper{
+    display: flex;
+    gap: 32px;
+    width: 711px;
+}
+
+.header-name{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+
+}
+  .poke-all-day-logo{
+    background-image: url(../pokealldayimg/Logo.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+  }
+
+  .show-the-way{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(237 122 97);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .show-the-way > a {
+    color: white;
+    align-items: center;
+  }
