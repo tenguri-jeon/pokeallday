@@ -26,7 +26,9 @@ header{
 #header-wrapper{
     display: flex;
     justify-content: space-between;
-    
+    min-width: 1000px;
+    box-sizing: border-box;
+    align-items: center;
 }
 
   .header-name-wrapper{
@@ -42,10 +44,9 @@ header{
 
 }
   .poke-all-day-logo{
-    background-image: url(../pokealldayimg/Logo.png);
-    background-repeat: no-repeat;
     width: 1000px;
   }
+  
 
   .show-the-way{
     width: 300px;
